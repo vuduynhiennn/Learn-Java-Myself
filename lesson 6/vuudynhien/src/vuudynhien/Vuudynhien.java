@@ -23,7 +23,7 @@ public class Vuudynhien {
                 yob = Integer.parseInt(sc.nextLine()); // convert data tu ban phim chuoi thanh s 
                 break;
                 
-            } catch (Exception e) {
+            } catch (Exceptiovn e) {
                 System.out.println("do ku know to input a possitive number ?");
             }
         }
