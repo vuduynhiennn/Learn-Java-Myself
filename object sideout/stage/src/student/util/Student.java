@@ -18,8 +18,8 @@ public class Student {
     public void showprofile() {
         System.out.println("Student: " + this.id + " has a name: " + this.name);
         System.out.println("age " + this.age);
-        System.out.println("address" + this.address);
-        System.out.println("grade" + this.grade);
+        System.out.println("address " + this.address);
+        System.out.println("grade " + this.grade);
         System.out.println("========================");
     }
 }
