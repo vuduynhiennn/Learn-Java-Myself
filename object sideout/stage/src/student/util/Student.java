@@ -22,4 +22,9 @@ public class Student {
         System.out.println("grade " + this.grade);
         System.out.println("========================");
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
 }
