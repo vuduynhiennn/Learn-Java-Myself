@@ -15,8 +15,10 @@ public class Child extends Parent {
     public String getAssetsThree() {
         return this.assetsThree;
     }
-    public void setAssetsThree(String assetsThree) {
+    public void  setAssetsThree(String assetsThree) {
         this.assetsThree = assetsThree;
     }
-
+    public void sayHi() {
+        System.out.println("Child => " + "assetsOne: " + assetsOne + " assetsTwo: " + assetsTwo + " assetesThree " + assetsThree);
+    }
 }
