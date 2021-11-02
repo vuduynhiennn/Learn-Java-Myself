@@ -70,4 +70,7 @@ viết code cho đủ đảm bảo công thức của con
 new cha + code @Override đảm bảo công thức vùng ram con như xưa nay phải đủ code
 tạo object mà éo cần class riêng, mượn cha mà làm class riêng mà éo cần làm ra là anonymous class
 vẫn new đc object con của shape mà éo cần 1 class con cụ thể vậy thì vùng ram con này chính 
-là đại diện cho 1 cái class làm biếng làm riêng, đặt tên class đặt ên 
+là đại diện cho 1 cái class làm biếng làm riêng, đặt tên class đặt ên   
+
+nếu làm riêng 1 cái khuôn cho hình cụ thể khoog hình dạng thì nó sẽ k thỏa đc công thức riêng nhau
+sau này ta nhân bản hình nào cung 50 vô lí 
