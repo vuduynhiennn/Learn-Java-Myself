@@ -1,16 +1,18 @@
-import java.util.Random;
+import java.util.Scanner;
 
 import data.Cat;
 import data.Dog;
 import data.Hamster;
-import data.NoName;
 import data.Pet;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        showRecord();
-        playWithAnonymousClass();
+        int a;
+        Scanner sc = new Scanner(System.in(System.in(a)));
+        int b = a++ + ++a;
+        System.out.println(b);
     }
+
 
     public static void showRecord() {
         Pet racer[] = new Pet[] { new Dog("CHI HU HU", 2021, 0.5), // polymophism
@@ -21,7 +23,6 @@ public class App {
             pet.showRecord();
         }
     }
-
         public static void playWithAnonymousClass() {
             new Pet("GHOST", 1999, 154.0) {
                 public static final double MAX_SPEED = 30;
