@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 import data.Cat;
@@ -7,10 +8,8 @@ import data.Pet;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int a;
-        Scanner sc = new Scanner(System.in(System.in(a)));
-        int b = a++ + ++a;
-        System.out.println(b);
+        showRecord();
+        playWithAnonymousClass();
     }
 
 

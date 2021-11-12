@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img {
+    background-color: #e4e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#border-radius {
+    border-radius: 65px;
+    /*
+     * The border radius should be set to 65px for each corner
+     * A border radius must be specified internally using 
+        an ‘ID’ selector and the correct CSS declaration(s) 
+    */
+}
