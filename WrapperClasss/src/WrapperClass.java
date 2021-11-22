@@ -5,6 +5,7 @@ public class WrapperClass {
         playWithPool();
     }
     public static void playWithPool() {
+        private
         Integer num4 = 2000;
         Integer num5 = 2000;
         System.out.println(num4);
